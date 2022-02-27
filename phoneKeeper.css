@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+
+.adding {
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin-left: 2%;
+    padding: 3px;
+}
+
+#add {
+    margin-left: 3%;
+    padding: 3px;
+    width: 15%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.content {
+   display: flex;
+   margin-top: 6%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.content1 {
+    margin-bottom: 1%;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.imgd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    
+}
+
+.T {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+    padding: 10px;
+    color: #9B0000;
+    font-size: 25px;
+}
+
+#X {
+    color: black;
+}
+
+.mod {
+    margin: 0;
+    width:30% ;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0.5%;
+}
+
+.mod button {
+    color: white;
+    cursor: pointer;
+    padding: 6px;
+    width: 30%;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px
+    
+}
+
+#del {
+    background-color: #F14A16;
+}
+
+#ed {
+    background-color: #35589A;
+    transition: 0.3s ;
+}
+.c {
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.c h2 , h3 {
+    width: 50%;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
+.change {
+    visibility: hidden;
+    width: 60%;
+    padding: 5%;
+    position: absolute ;
+    top: 30%;
+    left: 20%;
+    box-shadow: 1px 4px 10px  rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: 0.2s ;
+}
+
+.change button {
+    margin-left: 3%;
+    padding: 3px;
+    width: 30%;
+    cursor: pointer;
+    font-size: 16px;
+}
